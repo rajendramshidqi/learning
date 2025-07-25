@@ -60,7 +60,7 @@ class Profil extends StatelessWidget {
                     ),
                     const SizedBox(height: 4),
                     Text(
-                      "Lokasi: $gender",
+                      "Gender: $gender",
                       style: TextStyle(fontSize: 16, color: Colors.grey[700]),
                     ),
                     const SizedBox(height: 16),

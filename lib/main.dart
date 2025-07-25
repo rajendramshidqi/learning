@@ -11,6 +11,8 @@ import 'package:learning/list_view/contoh3.dart';
 import 'package:learning/list_view/contoh4.dart';
 import 'package:learning/list_view/wisata.dart';
 import 'package:learning/list_view/lat2.dart';
+import 'package:learning/form/form.screen.dart';
+
 
 void main() {
   runApp(BelajarFlutter());
@@ -21,7 +23,7 @@ class BelajarFlutter extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(debugShowCheckedModeBanner: false, home: Lat2());
+    return MaterialApp(debugShowCheckedModeBanner: false, home: BelajarForm());
   }
 }
 

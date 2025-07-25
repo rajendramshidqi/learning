@@ -1,12 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:learning/list_view/detail.dart';
+
 class Lat2 extends StatelessWidget {
   Lat2({super.key});
 
   final List<Map<String, dynamic>> WisataData = [
     {
       "nama": "ujang",
-      "gender": "L",
+      "gender": "Laki-laki",
       "image": "images/aerial-2.jpg",
       "point": "27000",
       "level": "5",
@@ -14,17 +15,17 @@ class Lat2 extends StatelessWidget {
       "desc": "pro peler nih bos",
     },
     {
-      "nama": "jends",
-      "gender": "L",
+      "nama": "jend",
+      "gender": "Laki-laki",
       "image": "images/hawai.jpg",
       "point": "2",
       "level": "4",
       "zodiac": "aries",
-      "desc": "info mabar",
+      "desc": "atlas Beach Club",
     },
     {
       "nama": "ibiza",
-      "gender": "L",
+      "gender": "Laki-laki",
       "image": "images/caption.jpg",
       "point": "2",
       "level": "4",
@@ -33,7 +34,7 @@ class Lat2 extends StatelessWidget {
     },
     {
       "nama": "ubud",
-      "gender": "L",
+      "gender": "Laki-laki",
       "image": "images/atlas-beach-fest.jpeg",
       "point": "2",
       "level": "4",
@@ -77,7 +78,6 @@ class Lat2 extends StatelessWidget {
                 padding: const EdgeInsets.all(12),
                 child: Row(
                   children: [
-                    
                     CircleAvatar(
                       radius: 30,
                       backgroundImage: AssetImage(wisata["image"]),
@@ -104,7 +104,6 @@ class Lat2 extends StatelessWidget {
                       ),
                     ),
 
-                
                     ElevatedButton(
                       onPressed: () {
                         Navigator.push(
@@ -129,7 +128,7 @@ class Lat2 extends StatelessWidget {
                         backgroundColor: Colors.purple,
                         foregroundColor: Colors.white,
                         shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(8),
+                          borderRadius: BorderRadius.circular(10),
                         ),
                       ),
                     ),
